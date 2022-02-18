@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Images/Avocado.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Salubriousness.com Healthy, Living, Happy</title>
+   
+</head>
+<html>
+    <body style="background-color: #d3d3d3;">
+        <div>
+             <!-- Navigation -->
+            <div>
+                <nav class="topnav">
+                    <a style="padding: 0px; margin: 5px"class="logoimage" href="index.html"><img src="Images/Avocado.png" alt="Avocado" height="70" width="70"></a>
+                    <a href="index.html">Home</a>
+                    <a href="shop.html">Shop</a>
+                    <a href="present.html">Present</a>
+                    <img style="float: right; margin: 7px 15px 0px 0px;"src="https://img.icons8.com/color/70/000000/shopping-cart--v2.png"/> 
+                    <h1><b>Sal</b>ubriousness</h1>
+                </nav>
+           </div>
+            <!-- Photo Slide Show -->
+            <div class="slideshow-mid">
+                <section class="slideshow-left">
+                    <img class="mySlides" src="Images/Healthy-Running.png" alt="Healthy-Running"  width="750" height="400" hover="MOM">
+                    <img class="mySlides" id="mySlides2" src="Images/Healthy-Soccer.png" alt="Healthy-Soccer" width="750" height="400">
+                    <img class="mySlides" src="Images/Healthy-Surfing.png" alt="Healthy-Surfing" width="750" height="400">
+                    <img class="mySlides" id="mySlides2" src="Images/Healthy-Fruits.png" alt="Healthy-Fruits" width="750" height="400">
+                    <img class="mySlides" src="Images/Healthy-Garden.png" alt="Garden"  width="750" height="400">
+                </section>
+                <script>
+
+                    // Automatic Slideshow - change image every 5 seconds
+                    var myIndex = 0;
+                    carousel();
+
+                    function carousel() {
+                      var i;
+                      var x = document.getElementsByClassName("mySlides");
+                      for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                      }
+                      myIndex++;
+                      if (myIndex > x.length) {myIndex = 1}
+                      x[myIndex-1].style.display = "block";
+                      setTimeout(carousel, 5000);
+                    }
+                </script>
+            </div>
+
+            <!-- Welcome Infomation -->
+            <div class="rcorners-text123">
+                <!-- Info Divided into rectangle boxes -->
+                <div  class="rcorners1">
+                    <h1>Welcome to <b>Sal</b>ubriousness!</h1>
+                    <p>Want to get healthy? Salubriousness Can help with that! Please go through our many pages and look for any information is suitable for you. Our goal here at Salubriousness is too make sure you find the info needed for you live a long healthy life. </p>
+                </div>
+                <div class="rcorners2">
+                    <h1>What is Health?</h1>
+                    <p>What is <abbr title="Heath stands for: Help Efficient, Accessible, Low Cost, Timely Health Care Act">Health</abbr>? Health is a abrreviaton for Help Efficient, Accessible, Low Cost, Timely Health Care Act. It's completed definition is  "The state of being free from illness or injury."</p>
+                </div>
+                <div class="rcorners3">
+                    <h1>How is our info gathered?</h1>
+                    <p>Conducted through multiple studies and reliable sources. Here at Salubriousness we want to make sure we give the most credible information to our members. The information provided is not biased nor has any political agenda. It should be strictly based on logic and reasoning and testing. If you feel like any information provided is biased and is not accurated please feel free to contact our team at <a href="index.html">Customer Help</a>.</p>
+                </div>
+            </div>
+            
+
+            <!-- Photos Information -->
+            <div class="flex-container-img">
+                <img class="image-border" src="Images/Mental Health.png" alt="Mental Health" height="400" width="600">
+                <img class="image-border" src="Images/Sleep.png" alt="Mental Health" height="400" width="600">
+                <img class="image-border" src="Images/Dieting.png" alt="Mental Health" height="400" width="600">
+            </div>
+
+            <!-- Who are we? -->
+            <div class="rcorners4">
+                <div class="rcorners4-img">
+                    <h1>Who are we?</h1>
+                    <img id="we"class="image-border" src="Images/Work.png" alt="Mental Health" height="400" width="620">          
+                </div>
+                <div class="rcorners4-text">
+                    <p><br>Even scrolling to the bottom of the page you may be still wondering to yourself Who are they? Well Salubriousness is a company founded in 2021 by Gavin Ogren and is still contnuing to this day!
+                        Here at Salubriousness we strive for healthy living for all. 
+                         We Strive to help the world's overall health in these main categories:
+                         <br>
+                         <br>
+                        Exercising: Exercise helps people lose weight and lower the risk of some diseases. Exercising regularly lowers a person's risk of developing some diseases, including obesity, type 2 diabetes, and high blood pressure. Exercise also can help keep your body at a healthy weight.
+                        <br>   
+                        <br>
+                        Sleep: Sleep plays an important role in your physical health. For example, sleep is involved in healing and repair of your heart and blood vessels. 
+                        Ongoing sleep deficiency is linked to an increased risk of heart disease, kidney disease, high blood pressure, diabetes, and stroke.
+                        <br>
+                        <br>
+                        Dieting: A healthy diet is essential for good health and nutrition. It protects you against many chronic noncommunicable diseases, such as heart disease, diabetes and cancer. Eating a variety of foods and consuming less salt, sugars and saturated and industrially produced trans-fats, are essential for healthy diet.
+                        <br>
+                        <br>
+                        Mental Health: <q>Mental Health is the key to success</q> - Gavin Ogren
+                        Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act. It also helps determine how we handle stress, relate to others, and make healthy choices. Mental health is important at every stage of life, from childhood and adolescence through adulthood.
+                        -CDC
+                     </p>
+                </div>
+            </div>
+            <!-- Footer -->
+            <div class="footer">
+
+                <div>
+                    <a id="img-prop" href="https://github.com/G-SCRAP"><i class="fa fa-github" style="font-size:44px"></i></a>
+                    <a id="img-prop" href="https://www.linkedin.com/in/gavin-ogren-4bbb80211/"><i class="fa fa-linkedin-square" style="font-size:44px"></i></a>
+                </div>
+                <br>
+                <div>
+                    <p style= "text-align: center; bottom: 5px; color: aliceblue;">Salubriousness @2022 All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+
+       
+    
+
+    </body>
+
+    
+
+</html>
